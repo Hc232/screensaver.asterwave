@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="screensaver.asterwave"
+  version="1.0.0"
+  name="AsterWave"
+  provider-name="Asteron, Team XBMC">
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+  <extension
+    point="xbmc.ui.screensaver"
+    library_windx="AsterWave_win32dx.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A field of liquid that deforms realistically</summary>
+    <description lang="en">AsterWave is a screensaver showing a field of liquid that deforms realistically to changes in height using actual physics equations. It is adapted from a project Asteron did for a graphics course in 2000.</description>
+    <platform>windx</platform>
+  </extension>
+</addon>

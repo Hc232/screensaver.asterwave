@@ -1,0 +1,5 @@
+<settings>
+  <!-- Settings are managed by the addon -->
+
+  <!--setting label="30000" type="label" id="preset" values="AsterWave" default="AsterWave" --/>
+</settings>
